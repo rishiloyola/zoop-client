@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/samuel/go-zookeeper/zk"
-	"stathat.com/c/consistent"
+	"github.com/rishiloyola/zoop-client/Godeps/_workspace/src/github.com/samuel/go-zookeeper/zk"
+	"github.com/rishiloyola/zoop-client/Godeps/_workspace/src/stathat.com/c/consistent"
 )
 
 type Client struct {
